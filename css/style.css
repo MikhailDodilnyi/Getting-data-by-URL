@@ -1,0 +1,41 @@
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.planet {
+  padding-top: 15px;
+  border-bottom: 1px solid #845EC2;
+}
+
+.planet-img {
+  display: flex;
+  max-width: 300px;
+}
+
+.planet-title {
+  font-size: 32px;
+  color: #1D0347;
+}
+
+.planet-info {
+  font-size: 16px;
+}
+
+header h1 {
+  font-size: 28px;
+  color: #1D0347;
+}
+
+.anchor {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.anchor:hover {
+  color: #926CD0;
+}
